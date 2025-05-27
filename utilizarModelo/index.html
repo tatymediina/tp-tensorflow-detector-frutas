@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Clasificador de Frutas</title>
+  <script src="https://cdn.jsdelivr.net/npm/@tensorflow/tfjs"></script>
+  <style>
+    body { font-family: Arial; padding: 20px; }
+    #preview { max-width: 200px; margin-top: 10px; }
+    #resultado { font-weight: bold; margin-top: 15px; }
+  </style>
+</head>
+<body>
+  <h1>Clasificador de Frutas</h1>
+  <input type="file" id="imagen" accept="image/*"><br>
+  <img id="preview" /><br>
+  <p id="resultado">Subí una imagen para predecir</p>
+
+  <script src="clasificar.js"></script>
+</body>
+</html>
